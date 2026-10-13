@@ -1,0 +1,38 @@
+{
+  "plugin_modified": false,
+  "catalog_patch": "H7追加§27范围；不增加独立作品",
+  "domain_evidence": {
+    "domain2": "新§27共同实践意义关联L4651–4657",
+    "model": "使用关联",
+    "domain1": "继承§18工具",
+    "status": "同书跨对象域；人非工具；有限性仍降级"
+  },
+  "canonical_modified": false,
+  "id": "heidegger-perspective",
+  "frozen_modified": false,
+  "statistics": "No new 20-paragraph sample or voice-pass claim",
+  "role": "researcher_not_final_judge",
+  "date": "2026-10-13",
+  "note_file": "15-r2-primary-evidence.md",
+  "sources": [
+    {
+      "type": "primary_german_OCR",
+      "unread": "完整§§25–26及死亡论",
+      "version": "页面标1967第11版Niemeyer，未校",
+      "url": "https://studylib.net/doc/26272449/heidegger-martin---sein-und-zeit",
+      "read": "§27全文L4528–4693，印页126–130；§26末L4511–4526"
+    }
+  ],
+  "remaining": [
+    "beyng页失败/验证页未计",
+    "Building Dwelling Thinking无可见截图未计",
+    "技术论译本校勘",
+    "第三跨作品成熟模型"
+  ],
+  "expression_patch": "普通活动→谁使之自然→逐一排除错误实体答案→自己参与其中→收回脱离社会的过推",
+  "modes": {
+    "textgame_persona": false,
+    "persona": "explicit_only",
+    "default": "neutral_thought"
+  }
+}

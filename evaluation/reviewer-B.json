@@ -1,0 +1,97 @@
+{
+  "id": "heidegger-perspective",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "年代先后不穷尽显现方式，未偷换成实证因果",
+      "source": "Question Concerning Technology；核查状态见source_audit"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "座架非设备的一般种，保留本质发生义",
+      "source": "Question Concerning Technology；核查状态见source_audit"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "拯救非自动即时交付，回应可能性非确保程序",
+      "source": "Question Concerning Technology；核查状态见source_audit"
+    }
+  ],
+  "source_audit": [
+    {
+      "url": "https://cs.gettysburg.edu/~duncjo01/assets/writings/library/question_concerning_technology.html",
+      "status": "direct_read",
+      "scope": "英译网络104–122、148–187直接核，未德文校勘"
+    }
+  ],
+  "judge": "B",
+  "model": "unknown",
+  "voice": {
+    "score": 10,
+    "reason": "盲认0.94显著依赖§27与常人线索；日常并列场景和显露追问有部分特征，但引用编号泄露身份，不能给满辨识分。",
+    "blind_guess": {
+      "code": "N07",
+      "guess": "海德格尔",
+      "confidence": 0.94,
+      "alternatives": [
+        "阿伦特"
+      ],
+      "formal_features": "以多个日常场景引出显露／理所当然的对照；追问先于结论；末尾有章节提示。",
+      "content_clues": "人人认可的尺度、重新承担选择以及§27共同形成强线索，接近常人问题。",
+      "limits": "识别高度依赖概念与章节号，不能等同于仅凭匿名表达组织认出；结论仍是局部推演。"
+    },
+    "limits": "识别高度依赖概念与章节号，不能等同于仅凭匿名表达组织认出；结论仍是局部推演。 正式只用Q5，Q6不加分。"
+  },
+  "sources": {
+    "score": 13,
+    "reason": "来源列版本、已读局部及未读范围；本轮对已知题核查仅限source_audit，不把继承研究记录当本轮通读。",
+    "primary_ratio_basis": "技术追问、镜报访谈、存在与时间3部一手，对SEP1；失败Humanism及重复章节不计，3/4。"
+  },
+  "structure": {
+    "score": 11,
+    "reason": "有执行动作、反例和停止条件；仍是局部解释框架，缺完整跨域验证，不按标题数量判成熟。",
+    "models": [
+      "用具关联",
+      "技术显现",
+      "有限性阅读提示"
+    ],
+    "boundaries": [
+      "存在论不裁物理医学",
+      "本真非道德优越",
+      "自辩非独立史实",
+      "1927与1953不混"
+    ],
+    "tensions": [
+      "参与显现／非独自制造",
+      "座架遮蔽／拯救可能"
+    ]
+  },
+  "edge": {
+    "score": 20,
+    "reason": "统一开场说明人物模拟；Q4正文明确为当代迁移或推断，保留未知和所缺依据，没有伪装成作者历史表态。"
+  },
+  "paired_comparison": {
+    "code": "P03",
+    "blind_preference": "first",
+    "mapped_preference": "r3_better",
+    "reasoning": "first保留熟练活动无须时时凝视的成立条件，凭受阻、缺失解释关联如何显现；second新增我们维持惯例与共同生活的主张，合理但本段支持较少。",
+    "expression": "first从开门、走路、器物入手，随后自然走到受阻与调整，结尾防止中断本身机械化；second较抽象，承担选择的收束缺少同样具体的铺垫。",
+    "post_unblinding_issues": [
+      "已核Q6完整题干：习惯遮蔽注意只属可能；没有仅因原盲读未见题干而把条件疑点定为错误，保留初判。",
+      "R3 Q6从用具受阻展开与§15–16思路一致；本輪未直接重核该节，仅与冻结研究记录比较，不能把技术论核查当该节核查。"
+    ],
+    "limits": "§15—16只作样本自身声明，不在此验证引用；偏好不是作者真实性评分。 R2为Q5、R3为Q6，不是单变量实验。"
+  },
+  "blockers": [],
+  "limitations": [
+    "中文短样本及少数题，不能代表全书、全时期或人类专家认证。",
+    "原作仅核查source_audit所列位置；其余研究阅读记录为继承材料，不声称本评审通读。"
+  ],
+  "total": 84,
+  "grade": "B",
+  "original_report_sha256": "2283118243abeffeee05f136f49726c5f98d30d5823a75cbd45a7bf6ed7f81d4",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}

@@ -1,0 +1,85 @@
+{
+  "id": "heidegger-perspective",
+  "judge": "A",
+  "model": "unknown",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "正确区分年代先后与本质追问，保留物理科学的计算安排，不将后者冒作实证因果。",
+      "source": "技术的追问L102–116直接英译核，https://cs.gettysburg.edu/~duncjo01/assets/writings/library/question_concerning_technology.html"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "座架不是器械属概念而是显现方式，准确解释树类比的限度。",
+      "source": "同作L159–166直接核"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "危险的遮蔽与拯救非立即无准备交付区分准确；行动程序的拒绝有据。",
+      "source": "同作L146–156直接核；后续主动回应根据仅冻结材料继承"
+    }
+  ],
+  "voice": {
+    "score": 11,
+    "blind_guess": "海德格尔",
+    "reason": "高置信来自§27及常人内容，不是语体本身。日常活动到显露与承担的推进有特征，但仍让步收束。",
+    "limits": "首次盲猜与置信以已锁定A-blind.json为准；此单题组织高度共享，思想词不直接折算口吻，未做原语言文体认证。"
+  },
+  "edge": {
+    "score": 20,
+    "reason": "开场标明模拟，Q4正文明确区分框架迁移与作者真实立场，并保留事实及规范证据不足，未虚构当代意见。"
+  },
+  "sources": {
+    "score": 12,
+    "reason": "技术英译有明显转录局限，存在与时间新增范围分散；本人政治访谈不当独立史实，透明但不是强版本保障。",
+    "primary_ratio_basis": "技术的追问、明镜访谈、存在与时间3个一手作品／访谈，SEP1二手，3/4；失败人道主义书信和计划不计。"
+  },
+  "structure": {
+    "score": 11,
+    "reason": "器具关系与技术调用是两个可执行提示；第三有限性已降为阅读辨析，不能以三标题视作3成熟模型。边界与张力充分但不补足该不足。",
+    "models": [
+      "使用关联",
+      "技术可调用对象",
+      "有限性阅读辨析（降级）"
+    ],
+    "boundaries": [
+      "不以存在论代实验",
+      "不从本真判人生高下",
+      "1927与后期技术论不互换",
+      "不借宏观存在史取消政治责任"
+    ],
+    "tensions": [
+      "参与显现／非独自制造",
+      "座架遮蔽／拯救可能"
+    ]
+  },
+  "total": 84,
+  "grade": "B",
+  "blockers": [],
+  "limitations": [
+    "单次离线答题、中文短段和局部原作核查不代表整个人格或全体系；直接打开不等于通读。",
+    "初次盲读缺完整题干，Q5/Q6共同题型容易诱发同构回答；辨识成功可能依赖概念线索，非纯文体命中。"
+  ],
+  "source_verification": [
+    {
+      "url": "https://cs.gettysburg.edu/~duncjo01/assets/writings/library/question_concerning_technology.html",
+      "status": "direct_partial",
+      "read": "英译L102–116、146–166有关三题段落，非德文校勘"
+    }
+  ],
+  "paired_comparison": {
+    "code": "P03",
+    "blind_preference": "first",
+    "mapped_result": "r3_better",
+    "post_unblinding_issues": [
+      "核对Q6的风险为可能；r3从顺畅器具到受阻关系的推进贴近冻结§15–16入口，无新增归属错误。Q5括号§27泄露内容定位，提高盲猜而非口吻，已在voice降权。",
+      "设计限制：首次匿名包未附完整题干；现已核冻结Q5/Q6。Q6只称可能不留意，并未断言每一习惯已经有害。盲判的条件性措辞疑点保留为歧义，不自动升级为确定错误；不回写盲判。Q5充分理由是否指客观充分或当事人自认充分也未定义，询问检验条件不直接算偷换题设。"
+    ],
+    "basis": "保留哈希锁定A-paired-blind.json的reasoning、expression及limits；仅据paired-mapping-private.json映射版本，不倒改初评。"
+  },
+  "original_report_sha256": "4100ff58f88a76c87d4d38b226bcd9be397aa02efb794ea1396a6f345587ea30",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}

@@ -1,0 +1,310 @@
+{
+  "id": "heidegger-perspective",
+  "date": "2026-10-13",
+  "coverage": [
+    "1927《存在与时间》：继承底稿实读§15–16、§53局部英译；§18德文83–87及88页开头，非全书。",
+    "1953《技术的追问》：本轮补读大学托管Lovitt英译网页106–122、148–187；机器抽样20段不另计全文精读。",
+    "1966访谈：继承自述选段；《人道主义书信》、死亡连续章、政治独立史料未补足。"
+  ],
+  "model_audit": [
+    {
+      "model": "H-A",
+      "name": "器具使用关联",
+      "cross_domain_evidence": "器具/实践：《存在与时间》§15–18；第二独立领域原作证据未取得，H1不可倒灌1927概念。",
+      "status": "保留单领域分析提示",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "器具故障时预期追问使用整体，而不是只增列物理属性",
+      "distinctiveness_hypothesis": "区别于功能主义清单之处在存在可能/世界性，尚无对照测试"
+    },
+    {
+      "model": "H-B",
+      "name": "技术显现",
+      "cross_domain_evidence": "工业/河流与物理科学：《技术的追问》旧莱茵河段、本轮106–115。两领域同篇，存在原作复现；不等于因果经验验证。",
+      "status": "有界心智模型候选",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "同一工具在不同组织中预期追问其使对象如何显现，不以工具名字定性",
+      "distinctiveness_hypothesis": "比一般反技术论多出揭示/遮蔽层次；不得等同支配量表"
+    },
+    {
+      "model": "H-C",
+      "name": "有限性",
+      "cross_domain_evidence": "《存在与时间》§53仅死亡存在论；退休与照护为自拟迁移，第二领域原作复现缺失。",
+      "status": "降级阅读辨析",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "预期把死亡统计与亲自承担可能性分开",
+      "distinctiveness_hypothesis": "与普通人生短暂劝诫不同；完整原作与盲测仍缺"
+    }
+  ],
+  "primary_additions": [
+    {
+      "url": "https://cs.gettysburg.edu/~duncjo01/assets/writings/library/question_concerning_technology.html",
+      "locator": "106–122、148–187行",
+      "reading": "补强H-B：作者将物理科学的可计算秩序与技术调用联系，却区分编年先后与其所谓历史先行；把危险与可能的拯救并置，并否认立即取得保证。没有补足H-C死亡论连续章。",
+      "source_grade": "作者一手文本网络转载；版本/翻译限制见coverage；不是全集"
+    }
+  ],
+  "tensions": [
+    "人参与显现而不独自制造显现：H1 119–121、175–177，不能化为主体无责任。",
+    "座架既遮蔽其他显现又可能显出拯救：H1 148–156、178–187；可能性非自动辩证乐观。"
+  ],
+  "remaining_gaps": [
+    "H-A及H-C的第二领域原作复现缺失",
+    "德语表达20段统计未完成",
+    "完整死亡分析及政治责任独立史料未补足"
+  ],
+  "score": null,
+  "expression": {
+    "sample_method": "requests + BeautifulSoup lxml parser (repairs omitted p closing tags); normalize whitespace; >150 characters; random.Random(20261013).sample sorted into source order; exclude Written/Source metadata; lexical machine sampling only.",
+    "eligible_count": 130,
+    "sample_count": 20,
+    "source_url": "https://cs.gettysburg.edu/~duncjo01/assets/writings/library/question_concerning_technology.html",
+    "source_language": "en-translation",
+    "metrics": {
+      "characters": 12775,
+      "words": 2108,
+      "sentence_end_groups": 128,
+      "question_marks": 4,
+      "first_person_tokens": 0,
+      "contrast_tokens": 18,
+      "words_per_sentence": 16.469,
+      "question_marks_per_sentence": 0.0312,
+      "contrast_per_1000_words": 8.539,
+      "analogy_density": null,
+      "certainty_ratio": null,
+      "characters_per_sentence": 99.805,
+      "first_person_per_1000_words": 0.0
+    },
+    "samples": [
+      {
+        "locator": "HTML p index 4 (0-based; lxml parser)",
+        "sha256": "b17862e24a2081235793e5d8d8a03fa2d70d0491057764f8958fe99ac68853f0",
+        "characters": 179,
+        "words": 27,
+        "sentence_end_groups": 1,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML p index 11 (0-based; lxml parser)",
+        "sha256": "c68199b54f765901e718678b94358091b0e53574e5298c113b79914ebfbf0eee",
+        "characters": 1096,
+        "words": 190,
+        "sentence_end_groups": 10,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 2
+      },
+      {
+        "locator": "HTML p index 13 (0-based; lxml parser)",
+        "sha256": "31dac471beda75f9fa4847ad747e7646b9112e38f0c66c852182579689f90699",
+        "characters": 701,
+        "words": 117,
+        "sentence_end_groups": 7,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 2
+      },
+      {
+        "locator": "HTML p index 19 (0-based; lxml parser)",
+        "sha256": "d8dd9ba0562f2e1fb3ab8add2b38255d4ddf613505b3be4898ef3db266d44fdf",
+        "characters": 1307,
+        "words": 217,
+        "sentence_end_groups": 10,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML p index 25 (0-based; lxml parser)",
+        "sha256": "65c76cbf4d02534e7c702b6f2c5bc12ee9b5219e44b0de76eb6beed96c02f1e9",
+        "characters": 230,
+        "words": 43,
+        "sentence_end_groups": 4,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML p index 27 (0-based; lxml parser)",
+        "sha256": "7f7da148e92b11f99694728a7e04b6a142e5364044c1be2d818565b4374f7c23",
+        "characters": 1350,
+        "words": 235,
+        "sentence_end_groups": 15,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 2
+      },
+      {
+        "locator": "HTML p index 34 (0-based; lxml parser)",
+        "sha256": "829547fb4e7e16aaf5efbb2fc7576ffd4b359478cbebecbb69ffbdc541af258d",
+        "characters": 707,
+        "words": 124,
+        "sentence_end_groups": 6,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML p index 36 (0-based; lxml parser)",
+        "sha256": "d8f72edc25b41e16883e7ff6f1aa44181f137bbe89512649126bc5ae3d4786cd",
+        "characters": 812,
+        "words": 122,
+        "sentence_end_groups": 8,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML p index 40 (0-based; lxml parser)",
+        "sha256": "36c01d1477807a567fc9763988f6c37c76465ce7870a34b6c554dd0c0f7424cf",
+        "characters": 575,
+        "words": 100,
+        "sentence_end_groups": 7,
+        "question_marks": 2,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML p index 53 (0-based; lxml parser)",
+        "sha256": "cfdd94c0f44dc330b12cad71e8fd66b579ebbefb109e8f554381423e50a0c686",
+        "characters": 588,
+        "words": 94,
+        "sentence_end_groups": 5,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 3
+      },
+      {
+        "locator": "HTML p index 55 (0-based; lxml parser)",
+        "sha256": "516930b94985334a5762ae62cc0edbe58292f1a1ec02154576f64cc042b81784",
+        "characters": 345,
+        "words": 50,
+        "sentence_end_groups": 3,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML p index 60 (0-based; lxml parser)",
+        "sha256": "29018c16860ebe97f6b9ca09f7854d78bc9db5c1ea5feda54e721e86433a55b4",
+        "characters": 152,
+        "words": 25,
+        "sentence_end_groups": 3,
+        "question_marks": 1,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML p index 64 (0-based; lxml parser)",
+        "sha256": "b9d788fd928a88f98f8020a9f085d80527e60cd0833ccd02668d146c647ab2ae",
+        "characters": 379,
+        "words": 66,
+        "sentence_end_groups": 4,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML p index 68 (0-based; lxml parser)",
+        "sha256": "d82e344495833c003564168ea1367986980f2500160393fe76dc4bfcc5bdc4d1",
+        "characters": 534,
+        "words": 93,
+        "sentence_end_groups": 3,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML p index 92 (0-based; lxml parser)",
+        "sha256": "d6d70ac823423ba8f0047f38a0607d9670432364dd21f446fefaf2071fb67f17",
+        "characters": 1286,
+        "words": 226,
+        "sentence_end_groups": 9,
+        "question_marks": 1,
+        "first_person_tokens": 0,
+        "contrast_tokens": 2
+      },
+      {
+        "locator": "HTML p index 124 (0-based; lxml parser)",
+        "sha256": "885876d35cb21d33d22c88972e82beebfc54dc19231bf7bdb8dcdca3c50dd15f",
+        "characters": 327,
+        "words": 42,
+        "sentence_end_groups": 6,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML p index 134 (0-based; lxml parser)",
+        "sha256": "707293061f2ce9c848f71f073a905b0e18da7ec76c5a2885cd1e22a6bfa3a252",
+        "characters": 318,
+        "words": 46,
+        "sentence_end_groups": 4,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML p index 136 (0-based; lxml parser)",
+        "sha256": "d571d2336e6b3221e9f170909ba0bdf3f0cf67b48d709e844a1ef5b552166be9",
+        "characters": 670,
+        "words": 105,
+        "sentence_end_groups": 6,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML p index 140 (0-based; lxml parser)",
+        "sha256": "7d33fcf5efd9d52479e96446c80b906b9e8e227c1f92878529717f2316e80b8f",
+        "characters": 778,
+        "words": 126,
+        "sentence_end_groups": 10,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML p index 146 (0-based; lxml parser)",
+        "sha256": "b2a88c2350a328d8955a64efdf0660c855ccbff9a5928660ec9e23125dc7722e",
+        "characters": 441,
+        "words": 60,
+        "sentence_end_groups": 7,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      }
+    ],
+    "limitations": [
+      "Single-text sample; not representative of entire oeuvre.",
+      "Mechanical sentence punctuation is affected by abbreviations and editorial punctuation.",
+      "First-person is lexical proxy, not semantic annotation.",
+      "Analogy and certainty have not been annotated, null is not zero.",
+      "Translation metrics describe this translation, never author original-language syntax."
+    ],
+    "style_rules": [
+      "先检验问题中的通常定义，再改变询问层次。",
+      "用具体活动承载概念差别；说明例子何时不再适用。",
+      "以连续追问标出尚未解决处，不靠神秘术语结束论证。"
+    ],
+    "anti_patterns": [
+      "不拼贴标志性引语",
+      "不把译者文风归作者",
+      "不以文风代替事实证据",
+      "默认中性；文游不启用人物表达"
+    ],
+    "metric_definitions": {
+      "words": "Unicode letter words with apostrophe/hyphen joins",
+      "certainty": "unannotated null",
+      "first_person": "en exact I/me/my; de case-insensitive ich/mein/meine; fr je/moi/mon/ma/mes",
+      "analogy": "unannotated null",
+      "contrast": "en but/however/nevertheless/yet; de aber/jedoch/sondern/dennoch/gleichwohl; fr mais/cependant/pourtant/néanmoins",
+      "characters": "Unicode normalized text length (Python codepoints; Levi JS UTF16)",
+      "sentences": "count regex [.!?]+ followed by whitespace or end; minimum1 per unit"
+    }
+  }
+}
